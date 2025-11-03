@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libMessage.so -o libMessage.so CMakeFiles/Message.dir/source/message.cpp.o 

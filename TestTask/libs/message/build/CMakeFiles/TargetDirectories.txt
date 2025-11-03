@@ -1,0 +1,3 @@
+/home/bob/work/stc/exps/exp/TestTask/libs/message/build/CMakeFiles/Message.dir
+/home/bob/work/stc/exps/exp/TestTask/libs/message/build/CMakeFiles/edit_cache.dir
+/home/bob/work/stc/exps/exp/TestTask/libs/message/build/CMakeFiles/rebuild_cache.dir
