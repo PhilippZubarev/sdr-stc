@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tddProject.dir/main.cpp.o -o tddProject/binaries/tddProject  -Wl,-rpath,/home/bob/work/stc/exp/build/TestTask/libs/parser TestTask/libs/parser/libParser.so 

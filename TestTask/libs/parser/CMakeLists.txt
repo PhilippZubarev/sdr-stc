@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project (Printer)
+project (Parser)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 

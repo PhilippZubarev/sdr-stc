@@ -23,9 +23,11 @@ if(UNITTEST)
 endif()
 
 
-add_subdirectory(TestTask/libs/printer)
 
-add_subdirectory(TestTask/libs/exampleProject)
+
+
+
+add_subdirectory(TestTask/libs/parser)
 
 if(UNITTEST)
         message(" output lib dir " ${CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG})
@@ -35,7 +37,8 @@ endif()
 
 add_executable(tddProject main.cpp)
 
-target_link_libraries(${PROJECT_NAME} Printer)
+
+target_link_libraries(${PROJECT_NAME} Parser)
 
 if(UNIX)
         add_custom_target( distclean COMMAND find . -name *_automoc.cpp -type f -delete

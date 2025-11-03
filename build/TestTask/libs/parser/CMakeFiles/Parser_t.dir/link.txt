@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Parser_t.dir/test/main.cpp.o CMakeFiles/Parser_t.dir/test/parser_test.cpp.o -o ../../../test/Parser_t  -Wl,-rpath,/home/bob/work/stc/exp/build/TestTask/libs/parser:/home/bob/work/stc/exp/build/googletests/gtest libParser.so ../../../googletests/gtest/libgtest.so 

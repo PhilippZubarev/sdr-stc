@@ -3,24 +3,24 @@
 
 #include <string>
 #include <iostream>
-#include <cstdint>
-#include <vector>
-/**
- * namespace Printing предполагает что в этойм пространстве имён кроме данного класса будет что-то ещё, касающееся принтеров,
- *  например, логика, связывающее каким-то образом взаимодействие принтеров
- */
-namespace Parsing {
+#include <nlohmann/json.hpp>
+#include <fstream>
+#include <cstdlib>
+#include "transfer.h"
+
+
 
 	class Parser {
 	public:
 
-		Parser();
-		~Parser();
-	private:
-		uint32_t id;
-
-		uint32_t time;
+		TransferParams par;
+		size_t add;
+		
+		Parser parse(const std::string& filename);
+		
 	};
-}
+
+	
+
 
 #endif

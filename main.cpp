@@ -1,21 +1,15 @@
-#include "printer/printer.h"
+#include "parser/parser.h"
+using namespace std;
 
 int main()
 {
-    Printing::Printer printer;
-
-    printer.print(" Hello Word! ");
-    std::cerr << " принтеров создано: " << Printing::Printer::getCountCreatedPrinters() << std::endl;
-
-    Printing::Printer* ptrToprinter = nullptr;
-
-    ptrToprinter = new Printing::Printer();
-
-    std::cerr << " принтеров создано: " << Printing::Printer::getCountCreatedPrinters() << std::endl;
-
-    delete ptrToprinter;
-
-    std::cerr << " принтеров создано: " << Printing::Printer::getCountCreatedPrinters() << std::endl;
+    Parser parser;
+    parser.parse("primer.json");
+    
+    cout << "id" << parser.par.id << endl;
+    cout << parser.par.bufferSize << endl;
+    cout << parser.par.packageSize << endl;
+    cout << parser.add << endl;
 
 	return 0;
 }

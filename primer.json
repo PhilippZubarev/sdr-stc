@@ -1,0 +1,10 @@
+{ "TransferParams":
+  {"id": 1,
+  "Type": 1,
+  "BufferSize":10,
+  "PackageSize":5
+  },
+  "AdditionalParams":
+  {"time": 1
+  }
+}
