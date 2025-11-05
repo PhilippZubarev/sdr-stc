@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/work/stc/exp
+CMAKE_SOURCE_DIR = /home/bob/work/sdr-stc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/work/stc/exp/build
+CMAKE_BINARY_DIR = /home/bob/work/sdr-stc/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bob/work/stc/exp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/work/stc/exp/build/CMakeFiles /home/bob/work/stc/exp/build/TestTask/libs/parser//CMakeFiles/progress.marks
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/work/stc/exp/build/CMakeFiles 0
+	cd /home/bob/work/sdr-stc/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/work/sdr-stc/build/CMakeFiles /home/bob/work/sdr-stc/build/TestTask/libs/parser//CMakeFiles/progress.marks
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/work/sdr-stc/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/clean
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/preinstall
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/preinstall
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bob/work/stc/exp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bob/work/sdr-stc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TestTask/libs/parser/CMakeFiles/Parser.dir/rule:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/CMakeFiles/Parser.dir/rule
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/CMakeFiles/Parser.dir/rule
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ Parser: TestTask/libs/parser/CMakeFiles/Parser.dir/rule
 
 # fast build rule for target.
 Parser/fast:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/build
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/build
 .PHONY : Parser/fast
 
 # Convenience name for target.
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/rule:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/CMakeFiles/Parser_t.dir/rule
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/CMakeFiles/Parser_t.dir/rule
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_t.dir/rule
 
 # Convenience name for target.
@@ -151,12 +151,12 @@ Parser_t: TestTask/libs/parser/CMakeFiles/Parser_t.dir/rule
 
 # fast build rule for target.
 Parser_t/fast:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/build
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/build
 .PHONY : Parser_t/fast
 
 # Convenience name for target.
 TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/rule:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/rule
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/rule
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/rule
 
 # Convenience name for target.
@@ -165,7 +165,7 @@ Parser_tconf: TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/rule
 
 # fast build rule for target.
 Parser_tconf/fast:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/build
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/build
 .PHONY : Parser_tconf/fast
 
 source/parser.o: source/parser.cpp.o
@@ -173,7 +173,7 @@ source/parser.o: source/parser.cpp.o
 
 # target to build an object file
 source/parser.cpp.o:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o
 .PHONY : source/parser.cpp.o
 
 source/parser.i: source/parser.cpp.i
@@ -181,7 +181,7 @@ source/parser.i: source/parser.cpp.i
 
 # target to preprocess a source file
 source/parser.cpp.i:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.i
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.i
 .PHONY : source/parser.cpp.i
 
 source/parser.s: source/parser.cpp.s
@@ -189,7 +189,7 @@ source/parser.s: source/parser.cpp.s
 
 # target to generate assembly for a file
 source/parser.cpp.s:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.s
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser.dir/build.make TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.s
 .PHONY : source/parser.cpp.s
 
 test/main.o: test/main.cpp.o
@@ -197,7 +197,7 @@ test/main.o: test/main.cpp.o
 
 # target to build an object file
 test/main.cpp.o:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o
 .PHONY : test/main.cpp.o
 
 test/main.i: test/main.cpp.i
@@ -205,7 +205,7 @@ test/main.i: test/main.cpp.i
 
 # target to preprocess a source file
 test/main.cpp.i:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.i
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.i
 .PHONY : test/main.cpp.i
 
 test/main.s: test/main.cpp.s
@@ -213,7 +213,7 @@ test/main.s: test/main.cpp.s
 
 # target to generate assembly for a file
 test/main.cpp.s:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.s
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.s
 .PHONY : test/main.cpp.s
 
 test/parser_test.o: test/parser_test.cpp.o
@@ -221,7 +221,7 @@ test/parser_test.o: test/parser_test.cpp.o
 
 # target to build an object file
 test/parser_test.cpp.o:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o
 .PHONY : test/parser_test.cpp.o
 
 test/parser_test.i: test/parser_test.cpp.i
@@ -229,7 +229,7 @@ test/parser_test.i: test/parser_test.cpp.i
 
 # target to preprocess a source file
 test/parser_test.cpp.i:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.i
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.i
 .PHONY : test/parser_test.cpp.i
 
 test/parser_test.s: test/parser_test.cpp.s
@@ -237,7 +237,7 @@ test/parser_test.s: test/parser_test.cpp.s
 
 # target to generate assembly for a file
 test/parser_test.cpp.s:
-	cd /home/bob/work/stc/exp/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.s
+	cd /home/bob/work/sdr-stc/build && $(MAKE) $(MAKESILENT) -f TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.s
 .PHONY : test/parser_test.cpp.s
 
 # Help Target
@@ -272,6 +272,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bob/work/stc/exp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bob/work/sdr-stc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

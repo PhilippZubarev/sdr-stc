@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bob/work/stc/exp/build -I/home/bob/work/stc/exp -I/home/bob/work/stc/exp/TestTask/libs/parser/include
+CXX_INCLUDES = -I/home/bob/work/sdr-stc/build -I/home/bob/work/sdr-stc -I/home/bob/work/sdr-stc/TestTask/libs/parser/include
 
 CXX_FLAGS = 
 

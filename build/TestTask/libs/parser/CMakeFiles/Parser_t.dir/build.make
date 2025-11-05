@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/work/stc/exp
+CMAKE_SOURCE_DIR = /home/bob/work/sdr-stc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/work/stc/exp/build
+CMAKE_BINARY_DIR = /home/bob/work/sdr-stc/build
 
 # Include any dependencies generated for this target.
 include TestTask/libs/parser/CMakeFiles/Parser_t.dir/depend.make
@@ -70,32 +70,32 @@ include TestTask/libs/parser/CMakeFiles/Parser_t.dir/progress.make
 include TestTask/libs/parser/CMakeFiles/Parser_t.dir/flags.make
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o: TestTask/libs/parser/CMakeFiles/Parser_t.dir/flags.make
-TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o: /home/bob/work/stc/exp/TestTask/libs/parser/test/main.cpp
+TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o: /home/bob/work/sdr-stc/TestTask/libs/parser/test/main.cpp
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o: TestTask/libs/parser/CMakeFiles/Parser_t.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bob/work/stc/exp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o"
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o -MF CMakeFiles/Parser_t.dir/test/main.cpp.o.d -o CMakeFiles/Parser_t.dir/test/main.cpp.o -c /home/bob/work/stc/exp/TestTask/libs/parser/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bob/work/sdr-stc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o"
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.o -MF CMakeFiles/Parser_t.dir/test/main.cpp.o.d -o CMakeFiles/Parser_t.dir/test/main.cpp.o -c /home/bob/work/sdr-stc/TestTask/libs/parser/test/main.cpp
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Parser_t.dir/test/main.cpp.i"
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/work/stc/exp/TestTask/libs/parser/test/main.cpp > CMakeFiles/Parser_t.dir/test/main.cpp.i
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/work/sdr-stc/TestTask/libs/parser/test/main.cpp > CMakeFiles/Parser_t.dir/test/main.cpp.i
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Parser_t.dir/test/main.cpp.s"
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/work/stc/exp/TestTask/libs/parser/test/main.cpp -o CMakeFiles/Parser_t.dir/test/main.cpp.s
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/work/sdr-stc/TestTask/libs/parser/test/main.cpp -o CMakeFiles/Parser_t.dir/test/main.cpp.s
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o: TestTask/libs/parser/CMakeFiles/Parser_t.dir/flags.make
-TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o: /home/bob/work/stc/exp/TestTask/libs/parser/test/parser_test.cpp
+TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o: /home/bob/work/sdr-stc/TestTask/libs/parser/test/parser_test.cpp
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o: TestTask/libs/parser/CMakeFiles/Parser_t.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bob/work/stc/exp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o"
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o -MF CMakeFiles/Parser_t.dir/test/parser_test.cpp.o.d -o CMakeFiles/Parser_t.dir/test/parser_test.cpp.o -c /home/bob/work/stc/exp/TestTask/libs/parser/test/parser_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bob/work/sdr-stc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o"
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.o -MF CMakeFiles/Parser_t.dir/test/parser_test.cpp.o.d -o CMakeFiles/Parser_t.dir/test/parser_test.cpp.o -c /home/bob/work/sdr-stc/TestTask/libs/parser/test/parser_test.cpp
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Parser_t.dir/test/parser_test.cpp.i"
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/work/stc/exp/TestTask/libs/parser/test/parser_test.cpp > CMakeFiles/Parser_t.dir/test/parser_test.cpp.i
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/work/sdr-stc/TestTask/libs/parser/test/parser_test.cpp > CMakeFiles/Parser_t.dir/test/parser_test.cpp.i
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/test/parser_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Parser_t.dir/test/parser_test.cpp.s"
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/work/stc/exp/TestTask/libs/parser/test/parser_test.cpp -o CMakeFiles/Parser_t.dir/test/parser_test.cpp.s
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/work/sdr-stc/TestTask/libs/parser/test/parser_test.cpp -o CMakeFiles/Parser_t.dir/test/parser_test.cpp.s
 
 # Object files for target Parser_t
 Parser_t_OBJECTS = \
@@ -111,18 +111,18 @@ test/Parser_t: TestTask/libs/parser/CMakeFiles/Parser_t.dir/build.make
 test/Parser_t: TestTask/libs/parser/libParser.so
 test/Parser_t: googletests/gtest/libgtest.so
 test/Parser_t: TestTask/libs/parser/CMakeFiles/Parser_t.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bob/work/stc/exp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../test/Parser_t"
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Parser_t.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bob/work/sdr-stc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../test/Parser_t"
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Parser_t.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/build: test/Parser_t
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_t.dir/build
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/clean:
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && $(CMAKE_COMMAND) -P CMakeFiles/Parser_t.dir/cmake_clean.cmake
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && $(CMAKE_COMMAND) -P CMakeFiles/Parser_t.dir/cmake_clean.cmake
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_t.dir/clean
 
 TestTask/libs/parser/CMakeFiles/Parser_t.dir/depend:
-	cd /home/bob/work/stc/exp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/work/stc/exp /home/bob/work/stc/exp/TestTask/libs/parser /home/bob/work/stc/exp/build /home/bob/work/stc/exp/build/TestTask/libs/parser /home/bob/work/stc/exp/build/TestTask/libs/parser/CMakeFiles/Parser_t.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/bob/work/sdr-stc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/work/sdr-stc /home/bob/work/sdr-stc/TestTask/libs/parser /home/bob/work/sdr-stc/build /home/bob/work/sdr-stc/build/TestTask/libs/parser /home/bob/work/sdr-stc/build/TestTask/libs/parser/CMakeFiles/Parser_t.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_t.dir/depend
 

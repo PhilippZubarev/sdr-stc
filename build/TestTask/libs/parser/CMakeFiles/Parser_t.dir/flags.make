@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bob/work/stc/exp/build/TestTask/libs/parser -I/home/bob/work/stc/exp/TestTask/libs/parser -I/home/bob/work/stc/exp/TestTask/libs/parser/include -I/home/bob/work/stc/exp/googletests/gtest/gtest/include -I/home/bob/work/stc/exp/googletests/gtest/gmock/include
+CXX_INCLUDES = -I/home/bob/work/sdr-stc/build/TestTask/libs/parser -I/home/bob/work/sdr-stc/TestTask/libs/parser -I/home/bob/work/sdr-stc/TestTask/libs/parser/include -I/home/bob/work/sdr-stc/googletests/gtest/gtest/include -I/home/bob/work/sdr-stc/googletests/gtest/gmock/include
 
 CXX_FLAGS = 
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dgtest_EXPORTS
 
-CXX_INCLUDES = -I/home/bob/work/stc/exp/build/googletests/gtest -I/home/bob/work/stc/exp/googletests/gtest -I/home/bob/work/stc/exp/googletests/gtest/gmock/include -I/home/bob/work/stc/exp/googletests/gtest/gmock -I/home/bob/work/stc/exp/googletests/gtest/gtest -I/home/bob/work/stc/exp/googletests/gtest/gtest/include
+CXX_INCLUDES = -I/home/bob/work/sdr-stc/build/googletests/gtest -I/home/bob/work/sdr-stc/googletests/gtest -I/home/bob/work/sdr-stc/googletests/gtest/gmock/include -I/home/bob/work/sdr-stc/googletests/gtest/gmock -I/home/bob/work/sdr-stc/googletests/gtest/gtest -I/home/bob/work/sdr-stc/googletests/gtest/gtest/include
 
 CXX_FLAGS = -std=gnu++11 -fPIC
 

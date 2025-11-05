@@ -1,4 +1,4 @@
-# Install script for directory: /home/bob/work/stc/exp/TestTask/libs/parser
+# Install script for directory: /home/bob/work/sdr-stc/TestTask/libs/parser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/work/stc/exp
+CMAKE_SOURCE_DIR = /home/bob/work/sdr-stc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/work/stc/exp/build
+CMAKE_BINARY_DIR = /home/bob/work/sdr-stc/build
 
 # Utility rule file for Parser_tconf.
 
@@ -74,10 +74,10 @@ TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/build: Parser_tconf
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/build
 
 TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/clean:
-	cd /home/bob/work/stc/exp/build/TestTask/libs/parser && $(CMAKE_COMMAND) -P CMakeFiles/Parser_tconf.dir/cmake_clean.cmake
+	cd /home/bob/work/sdr-stc/build/TestTask/libs/parser && $(CMAKE_COMMAND) -P CMakeFiles/Parser_tconf.dir/cmake_clean.cmake
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/clean
 
 TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/depend:
-	cd /home/bob/work/stc/exp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/work/stc/exp /home/bob/work/stc/exp/TestTask/libs/parser /home/bob/work/stc/exp/build /home/bob/work/stc/exp/build/TestTask/libs/parser /home/bob/work/stc/exp/build/TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/bob/work/sdr-stc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/work/sdr-stc /home/bob/work/sdr-stc/TestTask/libs/parser /home/bob/work/sdr-stc/build /home/bob/work/sdr-stc/build/TestTask/libs/parser /home/bob/work/sdr-stc/build/TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : TestTask/libs/parser/CMakeFiles/Parser_tconf.dir/depend
 

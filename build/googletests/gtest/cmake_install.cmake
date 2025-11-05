@@ -1,4 +1,4 @@
-# Install script for directory: /home/bob/work/stc/exp/googletests/gtest
+# Install script for directory: /home/bob/work/sdr-stc/googletests/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

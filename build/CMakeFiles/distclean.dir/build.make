@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/work/stc/exp
+CMAKE_SOURCE_DIR = /home/bob/work/sdr-stc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/work/stc/exp/build
+CMAKE_BINARY_DIR = /home/bob/work/sdr-stc/build
 
 # Utility rule file for distclean.
 
@@ -87,6 +87,6 @@ CMakeFiles/distclean.dir/clean:
 .PHONY : CMakeFiles/distclean.dir/clean
 
 CMakeFiles/distclean.dir/depend:
-	cd /home/bob/work/stc/exp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/work/stc/exp /home/bob/work/stc/exp /home/bob/work/stc/exp/build /home/bob/work/stc/exp/build /home/bob/work/stc/exp/build/CMakeFiles/distclean.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/bob/work/sdr-stc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/work/sdr-stc /home/bob/work/sdr-stc /home/bob/work/sdr-stc/build /home/bob/work/sdr-stc/build /home/bob/work/sdr-stc/build/CMakeFiles/distclean.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/distclean.dir/depend
 

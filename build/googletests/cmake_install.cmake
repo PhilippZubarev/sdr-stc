@@ -1,4 +1,4 @@
-# Install script for directory: /home/bob/work/stc/exp/googletests
+# Install script for directory: /home/bob/work/sdr-stc/googletests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/bob/work/stc/exp/build/googletests/gtest/cmake_install.cmake")
+  include("/home/bob/work/sdr-stc/build/googletests/gtest/cmake_install.cmake")
 
 endif()
 

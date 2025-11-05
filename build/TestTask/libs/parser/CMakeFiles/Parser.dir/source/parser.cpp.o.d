@@ -1,7 +1,7 @@
 TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o: \
- /home/bob/work/stc/exp/TestTask/libs/parser/source/parser.cpp \
+ /home/bob/work/sdr-stc/TestTask/libs/parser/source/parser.cpp \
  /usr/include/stdc-predef.h \
- /home/bob/work/stc/exp/TestTask/libs/parser/include/parser/parser.h \
+ /home/bob/work/sdr-stc/TestTask/libs/parser/include/parser/parser.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -297,4 +297,4 @@ TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/bob/work/stc/exp/TestTask/libs/parser/include/parser/transfer.h
+ /home/bob/work/sdr-stc/TestTask/libs/parser/include/parser/transfer.h

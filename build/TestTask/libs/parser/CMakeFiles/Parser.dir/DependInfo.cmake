@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bob/work/stc/exp/TestTask/libs/parser/source/parser.cpp" "TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o" "gcc" "TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o.d"
+  "/home/bob/work/sdr-stc/TestTask/libs/parser/source/parser.cpp" "TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o" "gcc" "TestTask/libs/parser/CMakeFiles/Parser.dir/source/parser.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
